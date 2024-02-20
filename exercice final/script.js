@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
 
             apiItem.addEventListener('click', function () {
-                // Redirect to the item details page with the item ID as a parameter
                 window.location.href = `item-details.html?id=${item.id}`;
             });
 

@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 <div class="add-to-cart-container">
                 <p class="item-title">Quantity:</p>
-                <input type="number" id="quantityInput" value="1" min="1" max="10">
+                <input class='quantity_Input' type="number" id="quantityInput" value="1" min="1" max="10">
                     <button class="add-to-cart-button" onclick="addToCart(${item.id})">Add to Cart</button>
                 </div>
                 <div class="bttns">
